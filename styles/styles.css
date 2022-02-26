@@ -1,0 +1,81 @@
+
+body{
+    /* background-color: pink; */
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+h6{ margin-top: 0px; }
+
+
+.transition-page{
+    
+    text-align: center;
+
+}
+
+
+
+/* Set the background color of the plain transition pages */
+.blue-bg{ background-color: #2356DD;}
+
+.navy-bg{ background-color: #172637;}
+
+.orange-bg{ background-color: #DD5747; }
+
+.smokeywhite-bg{background-color: #EBE5DD;}
+
+.teal-bg{ background-color: #4E9EBA; }
+
+.white-bg{ background-color: #fff; }
+
+header nav{
+    background-color: #4E9EBA;
+    color: #BDBDBD;
+}
+
+/* NAV MENU STYLING */
+
+header nav ul li{
+    margin-left:2em;
+}
+span.numbered{
+    padding-top: 2.5px;
+    padding-right:5px;
+    font-size:.8em;
+    font-family:;
+}
+header nav li a{
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+header nav ul li{
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.full-width{
+    width:100vw;
+    height: 100vh;
+}
+
+
+/* HERO AREA STYLING */
+
+    
+
+
+
+
+.copy-info{
+    height: 4em;
+    width: 100vw;
+    
+}
