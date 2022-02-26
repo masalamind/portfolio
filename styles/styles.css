@@ -19,6 +19,9 @@ h6{ margin-top: 0px; }
 
 }
 
+a{
+    text-decoration: none;
+}
 
 
 /* Set the background color of the plain transition pages */
