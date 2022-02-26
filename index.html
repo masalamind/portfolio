@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script> -->
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css"> -->
     <title>John Muiruri Portfolio</title>
 </head>
 <body>
@@ -19,7 +19,12 @@
                 <li><span class="numbered">3.</span><a href="#">Portfolio</a></li>
                 <li><span class="numbered">4.</span><a href="#">Contact</a></li>
             </ul>
-            <div class="theme-switch"></div>
+            <div class="theme-switch">
+                 <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
         </nav>
         <div class="hero">
             <div class="hero-img"></div>
@@ -32,15 +37,33 @@
         <div class="scroll-indicator"></div>
     </header>
     
-    <div class="transition-page orange-bg full-width">
+    <div class="transition-page orange-bg">
         <h6>I take a 2 pronged process</h6>
 
     </div>
 
-    <div class="work-role full-width smokeywhite-bg"></div>
+    <div class="work-role full-width smokeywhite-bg">
+        <div class="design-left">
+            <span class="role-number"></span>
+            <h2>DESIGN FOR <span class="yellow-txt">USERS</span></h2>
+            <p>Development starts with prioritizing different stakeholder needs. 
+                I understand the problems they need solved, their tastes 
+                and how they experience available technology.</p>
+        </div>
+        <div class="engineer-right">
+            <div class="top-left-container"><span class="role-number"></span></div>
+            <div class="top-right-container"> <img src="" alt="front-end technologies"></div>
+            <div class="bottom-container">
+                <h2>ENGINEER FOR <span class="orange-txt">DEVICES</span></h2>
+                <p>I then use my skills in front-end development to code, package,
+                 and deliver the digital product..</p>
 
-    <div class="transition-page teal-bg full-width">
+            </div>
+        </div>
+    </div>
 
+    <div class="transition-page teal-bg">
+    
 
     </div>
 
@@ -50,15 +73,37 @@
         <div class="portfolio-container">
             <img src="" alt="">
             <div class="portfolio-summary"></div>
-            <div class="dock"></div>
+            <div class="dock">
+                <ul>
+                    <li><a href="#"></a>Learn More</li>
+                    <li><a href="#">Live Site</a></li>
+                    <li><a href="#">Code</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="portfolio-footer">
+            <ul>
+                <li><a href="#">git</a></li>
+                <li><a href="#">likdn</a></li>
+            </ul>
+            <a href="#">@masalamind</a>
         </div>
     </div>
 
-    <div class="full-width transition-page white-bg"></div>
+    <div class="transition-page white-bg"></div>
 
     <footer class="full-width orange-bg" >
-        <h3>Reach out to me</h3>
+        <h6>Reach out to me</h6>
         <p>+254 721 880</p>
+        <form action="#" method="POST">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Name">
+            <p>Request my resume or tell me about your project</p>
+            <text-area></text-area>
+            <button type="submit"></button>
+
+        </form>
         
     </footer>
     <div class="copy-info navy-bg"> 
