@@ -36,7 +36,7 @@ h1{
 h2{ 
     margin-top: 0;
     font-family: 'peace_sansregular', Arial, sans-serif;
-    font-size: 4em;
+    font-size: 4.2em;
 }
 
 
@@ -60,6 +60,12 @@ a{
 .navy-bg{ background-color: #172637;}
 
 .orange-bg{ background-color: #DD5747; }
+
+.orange-txt{color: #DD5747; }
+
+.yellow-txt{color:#EFD473; }
+
+.blue-txt{color: #1F5F8C;}
 
 .smokeywhite-bg{background-color: #EBE5DD;}
 
@@ -301,4 +307,58 @@ nav .theme-switch{
 .aboutme-page h6{
     color: #616161;
     font-size: 3em;
+}
+
+
+/* WORK ROLE PAGE */
+
+.work-role{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.work-role design-left h1{
+    color: #EBE5DD;
+}
+
+.work-role .bottom-container h1{
+    color: color:rgb(31,95,140);
+}
+
+.design-left{
+    background-color: rgb(31,95,140);
+    color: white;
+    grid-column:1/8;
+    grid-row:1/6;
+}
+
+.design-left img{
+    width: 400px;
+    height: 400px;
+}
+
+.top-containers{
+    background-color: pink;
+    grid-column: 8/13;
+    grid-row: 1/3;
+
+}
+
+.bottom-container{
+    background-color: #EBE5DD;
+    grid-column: 8/13;
+    grid-row: 3/6;
+
+}
+.bottom-container p{
+    color:#191919;
+}
+
+
+span.role-number{
+    font-family: 'peace_sansregular', Arial, sans-serif;
+    font-size: 5em;
+    color: rgb(235,229,221);
+    
 }
