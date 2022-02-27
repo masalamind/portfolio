@@ -47,8 +47,16 @@ header nav{
     color: #BDBDBD;
 }
 
+
+/* HEADER STYLING */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* NAV MENU STYLING */
-header nav{
+/* header nav{
     height:5vh;
     padding-top:20px;
     padding-bottom: 20px;
@@ -67,7 +75,7 @@ header nav ul li{
     text-transform: uppercase;
     font-weight:900;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
+} */
 span.numbered{
     padding-top: 10px;
     padding-right:5px;
