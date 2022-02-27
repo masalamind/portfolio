@@ -45,10 +45,13 @@ h2{
     height: 60vh;
     width: 100vw;
     text-align: center;
+    line-height: 100vh;
     background-attachment: fixed;
 
 }
-
+.transition-page .white-bg h6{
+    color: #616161;
+}
 a{
     text-decoration: none;
 }
@@ -165,7 +168,8 @@ header nav li a:hover{
 
 h6{ 
     font-family: 'Lifelogo Easy', sans-serif;
-    margin: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: none !important;
     font-weight: regular;
     font-size: 2em;
  }
@@ -260,11 +264,6 @@ nav .theme-switch{
     
 
 
-.copy-info{
-    height: 4em;
-    width: 100vw;
-    
-}
 
 .hero{
     width: 100vw;
@@ -399,4 +398,33 @@ span.role-number{
     color: rgb(235,229,221);
     
 }
+
+
+footer{
+
+    background-image:linear-gradient(rgba(221,87,71, 0.7), rgb(221,87,71)), 
+    url('../images/world-map.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+
+    display: grid;
+    justify-items: center;
+    
+}
+
+.copy-info{
+    height: 5em;
+    width: 100vw;
+    text-align: center;
+    
+}
+
+
+footer .logo{
+    width: 100px;
+    height: 50px;
+    margin-left: 2em;
+}
+
 
