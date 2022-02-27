@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body{
     /* background-color: pink; */
@@ -7,6 +7,11 @@ body{
     color: white;
 }
 
+p, li, a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
 
 h6{ margin-top: 0px; }
 
@@ -39,7 +44,6 @@ a{
 
 
 header nav{
-    background-color: #4E9EBA;
     color: #BDBDBD;
 }
 
