@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body{
-    /* background-color: pink; */
+    font-family: 'Open Sans', sans-serif; 
     margin: 0;
     padding: 0;
     color: white;
@@ -53,8 +53,13 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 5%;
 }
 
+
+.logo{
+    cursor: pointer;
+}
 /* NAV MENU STYLING */
 /* header nav{
     height:5vh;
@@ -69,13 +74,16 @@ header nav ul{
     float: right;
     margin-right: 10em;
 }
+*/
+
 header nav ul li{
-    margin-right:1em;
-    font-size: 1.5em;
+    font-weight: bold;
+    margin-right:1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
-    font-weight:900;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-} */
+    
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+} 
 span.numbered{
     padding-top: 10px;
     padding-right:5px;
@@ -83,17 +91,23 @@ span.numbered{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 header nav li a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
+    text-transform: uppercase;
     color: #BDBDBD;
 }
 
-header nav a:hover{
-    color: #fff;
-}
 
 header nav ul li{
-    display: inline-flex;
+    display: inline-block;
     text-decoration: none;
+}
+
+nav li a{
+    transition: all 0.3s ease 0s;
+}
+header nav li a:hover{
+    color:#fff;
 }
 
 .full-width{
@@ -195,4 +209,17 @@ nav .theme-switch{
     
 }
 
+
+
+/* ABOUT ME SECTION */
+
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+
+.aboutme-page{
+    
+    color: #191919;
+}
 
