@@ -485,7 +485,9 @@ span.role-number{
 
 
 footer{
-    background-image:linear-gradient(rgba(221,87,71, 0.7), rgb(221,87,71)), 
+    background-image:linear-gradient(
+    rgba(221,87,71, 0.7),
+    rgb(221,87,71)),
     url('../images/world-map.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
