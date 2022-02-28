@@ -74,23 +74,23 @@ h2{
 
 /* Set the background color classes for plain transition pages */
 
-.blue-bg{ background-color: #2356DD;}
+.blue-bg{ background-color: #2356DD; }
 
-.blue-txt{color: #1F5F8C;}
+.blue-txt{ color: #1F5F8C; }
 
-.navy-bg{ background-color: #172637;}
+.navy-bg{ background-color: #172637; }
 
 .orange-bg{ background-color: #DD5747; }
 
-.orange-txt{color: #DD5747; }
+.orange-txt{ color: #DD5747; }
 
-.smokeywhite-bg{background-color: #EBE5DD;}
+.smokeywhite-bg{ background-color: #EBE5DD; }
 
 .teal-bg{ background-color: #4E9EBA; }
 
 .white-bg{ background-color: #fff; }
 
-.yellow-txt{color:#EFD473; }
+.yellow-txt{ color:#EFD473; }
 
 
 /* HEADER STYLES */
@@ -386,8 +386,8 @@ input:checked + .slider:before {
 
 .work-role{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     
 }
 
