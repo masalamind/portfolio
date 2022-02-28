@@ -1,4 +1,4 @@
-/* This is the custom stylesheet for portfolio website with colored theme. */
+/* This is the custom style sheet for portfolio website with colored theme. */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('http://fonts.cdnfonts.com/css/lifelogo-easy');
@@ -95,7 +95,17 @@ h2{
 
 /* HEADER STYLES */
 
-.logo{ cursor: pointer; }
+.avatar{
+    background-image: url("../images/muiruri.gif");
+    border-radius: 50%;
+    background-position: center 20%;
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+    
+}
+
+header nav li a:hover{ color:#fff; }
 
 header nav{
     color: #BDBDBD;
@@ -110,7 +120,6 @@ header .logo{
     height: 5em;
 
 }
-
 
 header{
     align-items: center;
@@ -128,34 +137,6 @@ header nav ul li{
     
 } 
 
-nav a:visited{ color: white; }
-
-
-
-.avatar{
-    background-image: url("../images/muiruri.gif");
-    border-radius: 50%;
-    background-position: center 20%;
-    height: 200px;
-    margin: 0 auto;
-    width: 200px;
-    
-}
-
-span.numbered{
-    color: #BDBDBD;
-    font-size:.8em;
-    font-weight: 400;
-    font-family: 'Anonymous Pro', sans-serif;
-    padding-right:10px;
-    padding-top: 10px;
-
-}
-
-
-span.outline{ font-family: 'Maxxi Serif Outline', sans-serif; }
-    
-
 header nav li a{  
     color: #EEE;
     text-decoration: none;
@@ -163,19 +144,11 @@ header nav li a{
 
 }
 
-
 header nav ul li{
     display: inline-block;
     text-decoration: none;
 
 }
-
-nav li a{
-    transition: all 0.3s ease 0s;
-
-}
-
-header nav li a:hover{ color:#fff; }
 
 
 h6{ 
@@ -194,6 +167,24 @@ h6{
 h2{
     font-weight: bold;
     font-size: 3em;
+}
+
+.logo{ cursor: pointer; }
+
+span.outline{ font-family: 'Maxxi Serif Outline', sans-serif; }
+
+nav a:visited{ color: white; }
+
+nav li a{ transition: all 0.3s ease 0s; }
+
+span.numbered{
+    color: #BDBDBD;
+    font-size:.8em;
+    font-weight: 400;
+    font-family: 'Anonymous Pro', sans-serif;
+    padding-right:10px;
+    padding-top: 10px;
+
 }
 
 /* About me section */
@@ -219,6 +210,17 @@ nav .theme-switch{
     float: right;
 }
 
+input:checked + .slider { background-color: #2356DD; }
+
+input:focus + .slider { box-shadow: 0 0 1px #2356DD; }
+
+input:checked + .slider:before {
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    -webkit-transform: translateX(26px);
+
+}
+
 .switch {
     display: inline-block;
     height: 2em;
@@ -228,6 +230,7 @@ nav .theme-switch{
 }
 
 /* Hide default HTML checkbox */
+
 .switch input {
     height: 0;
     opacity: 0;
@@ -261,16 +264,7 @@ nav .theme-switch{
 
 }
   
-input:checked + .slider { background-color: #2356DD; }
 
-input:focus + .slider { box-shadow: 0 0 1px #2356DD; }
-
-input:checked + .slider:before {
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-    -webkit-transform: translateX(26px);
-
-}
 
 .slider.round { border-radius: 34px; }
 
@@ -327,25 +321,6 @@ input:checked + .slider:before {
 
 /* PORTFOLIO SECTION */
 
-.portfolio-container{
-    width:20%;
-
-}
-
-.portfolio-item img{
-    background: pink;
-    height:250px;
-    width: 500px;
-    
-}
-
-.portfolio-summary{
-    background-color: #fff;
-    height: 300px;
-    width: 500px;
-    
-}
-
 .dock{
     background-color:#4E9EBA;
     color: #fff;
@@ -363,12 +338,23 @@ input:checked + .slider:before {
 
 }
 
-.portfolio-container{ margin: 1em 2em; }
 
 .portfolio-page ul li a{ color: #fff; }
 
 .portfolio-page ul li{ list-style: none; }
 
+.portfolio-container{ 
+    margin: 1em 2em; 
+    width: 20%;
+}
+
+
+.portfolio-item img{
+    background: pink;
+    height:250px;
+    width: 500px;
+    
+}
 
 .portfolio-footer ul li{
     color: #fff;
@@ -385,6 +371,13 @@ input:checked + .slider:before {
     text-align: center;
     width: 100%;
 
+}
+
+.portfolio-summary{
+    background-color: #fff;
+    height: 300px;
+    width: 500px;
+    
 }
 
 
