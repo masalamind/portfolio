@@ -144,6 +144,11 @@ header nav li a{
 
 }
 
+header nav li a:hover{
+    color: #EBE5DD;
+        
+}
+
 header nav ul li{
     display: inline-block;
     text-decoration: none;
@@ -173,7 +178,7 @@ h2{
 
 span.outline{ font-family: 'Maxxi Serif Outline', sans-serif; }
 
-nav a:visited{ color: white; }
+nav a:visited{ color: #BDBDBD;; }
 
 nav li a{ transition: all 0.3s ease 0s; }
 
