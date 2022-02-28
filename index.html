@@ -152,13 +152,16 @@
 
         <h6>Reach out to me</h6>
         <h1>+254 721 880</h1>
-        <form action="#" method="POST">
-            <input class="form-inputs" type="text" placeholder="Your Name">
-            <input class="form-inputs" type="email" placeholder="myemailaddress@email.com">
-            <input class="form-inputs" type="text" placeholder="Company / Organization name">
-            
-            <text-area> Type your message here... </text-area>
-            <button type="submit" class="message-btn"> Send Message </button>
+        <form action="mailto:themasalacollective@gmail.com" method="post">
+            <label for="name">Name</label>
+            <input class="form-inputs name" type="text" placeholder="Your Name" required>
+            <label for="">Email Address</label>
+            <input class="form-inputs" type="email" placeholder="myemailaddress@email.com" required>
+            <label for="company">Company/Organization</label>
+            <input class="form-inputs" type="text"  placeholder="Company / Organization name" required>
+            <label for="message">Message</label>
+            <text-area name="message"> Type your message here... </text-area><br>
+            <button type="submit" class="message-btn"> <i class="fa-solid fa-paper-plane-top"> </i> Send Message </button>
             <p>Request my resume or tell me about your project</p>
         </form>
         

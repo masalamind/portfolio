@@ -490,16 +490,21 @@ span.role-number{
     background-color: ;  
 }
 
-form button{
+.message-btn{
     background-color: #4EAACA;
+    border-radius: 3px;
     color: #fff;
     display: block;
-    height: 2.5em;
-    width: 41em;
+    font-weight: 600;
+    font-size: 1.5 em;
+    height: 3em;
+    text-transform: uppercase;
+    width: 100%;
+    
 }
-
-form button:hover{
-    background-color: ;
+.message-btn:hover{
+    background-color:#1F5F8C;
+    cursor: pointer;
 }
 
 form h1{ 
@@ -513,19 +518,30 @@ form .form-inputs{
     display: block;
     height: 2em;
     margin-bottom: .7em;
-    padding: .5em;
-    padding-left: 1em;
-    width: 40em;
+    padding: .5em 0;
+    padding-left:.5em;
+    width: 100%;
    
 }
 
+form label{
+    padding-left: .5em;
+    font-weight: bold;
+}
+
+.form-inputs:focus, text-area:focus {
+    background-color: #fff;
+    outline:none !important
+
+}
 
 text-area{
     background-color: #EBE5DD;
     border: none;
     border-radius: 3px;
-    width: 40em;
-    height: 200px; 
+    display: block;
+    width: 100%;
+    height: 5em;
 }
 
 footer{
