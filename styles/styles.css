@@ -336,14 +336,14 @@ input:checked + .slider:before {
     background: pink;
     height:250px;
     width: 500px;
-    /* float: left; */
+    
 }
 
 .portfolio-summary{
     background-color: #fff;
     height: 300px;
     width: 500px;
-    /* float:right; */
+    
 }
 
 .dock{
@@ -487,7 +487,7 @@ span.role-number{
     background-size: cover;
     background-attachment: fixed;
     color: black;
-    
+
 }
 
 
