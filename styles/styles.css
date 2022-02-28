@@ -5,6 +5,7 @@
 @import url('http://fonts.cdnfonts.com/css/arial');
 @import url('http://fonts.cdnfonts.com/css/anonymous-pro');
 @import url('http://fonts.cdnfonts.com/css/maxxi-serif');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
 
 
 @font-face {
@@ -340,7 +341,7 @@ input:checked + .slider:before {
 
 .dock ul{ 
     display: block;
-    margin: 0 auto;
+    margin: 2em auto 0 auto;
 
 }
 
@@ -351,6 +352,14 @@ input:checked + .slider:before {
 
 }
 
+.dock ul li a:hover{ color: #172637; }
+
+span.coding-language{ 
+    color:#616161;
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 1.2em;
+
+}
 
 .portfolio-page ul li a{ color: #fff; }
 
@@ -364,12 +373,13 @@ input:checked + .slider:before {
 
 
 .portfolio-item img{
-    background: pink;
+    margin: 4em 0 0 0;
     border-radius: 4px;
     height:250px;
     width: 500px;
     
 }
+
 
 .portfolio-footer ul li{
     color: #fff;
@@ -388,24 +398,34 @@ input:checked + .slider:before {
 
 }
 
-.portfolio-footer li a:hover {
-    color:#4EAACA;
-}
+.portfolio-footer li a:hover { color:#4EAACA; }
 
 .portfolio-container{
     color:#191919;
     text-align: center;
 }
+
 .portfolio-summary{
     background-color: #fff;
     border-radius: 4px;
     height: 250px;
     width: 500px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
     
 }
 
+.portfolio-summary p{ 
+    margin: 0 auto 0 auto;
+    width: 80%;
+
+
+}
+
+.portfolio-summary h3{
+    color:#4E9EBA;
+    font-weight: bolder;
+    
+}
 
 /* WORK ROLE SECTION */
 /* Using a css grid to position containers and elements  */
