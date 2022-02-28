@@ -9,7 +9,7 @@ This project creates a portfolio website for John Muiruri.
 ## Access 
 The website is hosted online by github pages online on masalamind.github.io/masalamind 
 The link to the live site is 
-(masalamind portfolio)[masalamind.github.io/portfolio]
+(masalamind portfolio)[https://masalamind.github.io/portfolio/]
 
 ## Copyright and licencse info
 Copyright of masalacollective,masalamind 
