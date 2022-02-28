@@ -32,6 +32,7 @@ attribution:
 ## Technologies Used
 HTML5
 CSS3
+javaScript
 
 ## Known Bugs
 More of incomplete work rather than bugs: Future version will implement these changes
