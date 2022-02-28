@@ -1,13 +1,11 @@
+/* This is the custom stylesheet for portfolio website with colored theme. */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('http://fonts.cdnfonts.com/css/lifelogo-easy');
 @import url('http://fonts.cdnfonts.com/css/arial');
 @import url('http://fonts.cdnfonts.com/css/anonymous-pro');
 @import url('http://fonts.cdnfonts.com/css/maxxi-serif');
-/* 
-font-family: 'Maxxi Serif', sans-serif;
-font-family: 'Maxxi Serif Outline', sans-serif; */
 
-                
 @font-face {
     font-family: 'peace_sansregular';
     src: url('peace_sans-webfont.eot');
@@ -21,48 +19,59 @@ font-family: 'Maxxi Serif Outline', sans-serif; */
 
 }
 
+/* GLOBAL STYLES */
 
+/* Default custom style overriding user agent styles */
+
+a{ text-decoration: none; }
 
 body{
-
+    background-color: #2356DD;
+    color: white;
     font-family: 'Open Sans', sans-serif; 
     margin: 0;
     overflow-x: hidden;
     padding: 0;
-    background-color: #2356DD;
-    color: white;
+
 }
 
 h1{ 
-    margin-top: 0;
-    font-size: 4em;
     font-family: 'peace_sansregular', Arial, sans-serif; 
+    font-size: 4em;
+    margin-top: 0;
+
 }
 
 h2{ 
-    margin-top: 0;
     font-family: 'peace_sansregular', Arial, sans-serif;
     font-size: 4.2em;
+    margin-top: 0;
 }
 
 
+.full-width{
+    background-attachment: scroll;
+    height: 100vh;
+    width:100vw;
+
+}
+
+/* Transition pages for introducing sections and for parallax effect */
 
 .transition-page{    
-    height: 60vh;
-    width: 100vw;
-    text-align: center;
-    line-height: 100vh;
     background-attachment: fixed;
+    height: 60vh;
+    line-height: 100vh;
+    text-align: center;
+    width: 100vw;
 
 }
 
-a{
-    text-decoration: none;
-}
+/* Set the background color classes for plain transition pages */
 
-
-/* Set the background color of the plain transition pages */
 .blue-bg{ background-color: #2356DD;}
+
+.blue-txt{color: #1F5F8C;}
 
 .navy-bg{ background-color: #172637;}
 
@@ -70,120 +79,102 @@ a{
 
 .orange-txt{color: #DD5747; }
 
-.yellow-txt{color:#EFD473; }
-
-.blue-txt{color: #1F5F8C;}
-
 .smokeywhite-bg{background-color: #EBE5DD;}
 
 .teal-bg{ background-color: #4E9EBA; }
 
 .white-bg{ background-color: #fff; }
 
+.yellow-txt{color:#EFD473; }
+
+
+
+
+
+/* HEADER STYLES */
+
+.logo{ cursor: pointer; }
 
 header nav{
     color: #BDBDBD;
     font-family: 'Maxxi Serif', sans-serif;
     font-size: 1em;
     font-weight: 300;
+
 }
 
 header .logo{
     width: 5em;
     height: 5em;
+
 }
 
-/* HEADER STYLING */
+
 header{
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1% 6%;
-}
 
-
-.logo{
-    cursor: pointer;
-}
-/* NAV MENU STYLING */
-/* header nav{
-    height:5vh;
-    padding-top:20px;
-    padding-bottom: 20px;
-}
-
-header nav img{
-    padding-top: 20px;
-}
-header nav ul{ 
-    float: right;
-    margin-right: 10em;
-}
-*/
-.avatar{
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 50%;
-    background-image: url("../images/muiruri.gif");
-    background-position: center 20%;
-    
-}
-
-nav a:visited{
-    color: white;
 }
 
 header nav ul li{
+    font-size: 1.2em;
     font-weight: bold;
     margin-right:1.5em;
-    font-size: 1.2em;
     text-transform: uppercase;    
-    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+    
 } 
+
+nav a:visited{ color: white; }
+
+
+
+.avatar{
+    background-image: url("../images/muiruri.gif");
+    border-radius: 50%;
+    background-position: center 20%;
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+    
+}
+
 span.numbered{
-    padding-top: 10px;
     color: #BDBDBD;
-    padding-right:10px;
     font-size:.8em;
     font-weight: 400;
-    color: #EEE;
     font-family: 'Anonymous Pro', sans-serif;
+    padding-right:10px;
+    padding-top: 10px;
+
 }
 
 
-span.outline{
-    font-family: 'Maxxi Serif Outline', sans-serif;
-   
-    /* color: rgba(283,283,283, .6); */
+span.outline{ font-family: 'Maxxi Serif Outline', sans-serif; }
     
-}
-header nav li a{
-    
-    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+header nav li a{  
+    color: #EEE;
     text-decoration: none;
     text-transform: uppercase;
-    color: #EEE;
+
 }
 
 
 header nav ul li{
     display: inline-block;
     text-decoration: none;
+
 }
 
 nav li a{
     transition: all 0.3s ease 0s;
-}
-header nav li a:hover{
-    color:#fff;
+
 }
 
-.full-width{
-    width:100vw;
-    height: 100vh;
-    background-attachment: scroll;
-}
+header nav li a:hover{ color:#fff; }
+
 
 h6{ 
     font-family: 'Lifelogo Easy', sans-serif;
@@ -209,10 +200,11 @@ h2{
     background-size: cover;
     background-attachment: fixed;
 }
+
 .aboutme-page p {
+    font-size: 1.2em;
     margin-top:0;
     padding-top: 0;
-    font-size: 1.2em;
 
 }
 
@@ -223,18 +215,21 @@ h2{
 nav .theme-switch{
     float: right;
 }
+
 .switch {
-    position: relative;
     display: inline-block;
-    width: 4em;
     height: 2em;
+    position: relative;
+    width: 4em;
+
   }
   
   /* Hide default HTML checkbox */
   .switch input {
+    height: 0;
     opacity: 0;
     width: 0;
-    height: 0;
+
   }
   
   /* The slider */
@@ -248,6 +243,7 @@ nav .theme-switch{
     background-color: #172637;
     -webkit-transition: .4s;
     transition: .4s;
+    
   }
   
   .slider:before {
