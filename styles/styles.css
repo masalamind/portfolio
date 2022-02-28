@@ -531,25 +531,33 @@ form .form-inputs{
    
 }
 
-form label{
-    padding-left: .5em;
+form label{    
     font-weight: bold;
-}
+    position: relative;
+    right: 2em;
+    top: 2em;
 
-.form-inputs:focus, text-area:focus {
+}
+form label:hover{ cursor:pointer;}
+.form-inputs:focus, textarea:focus {
     background-color: #fff;
     outline:none !important
 
 }
 
+
+
+
 textarea{
     background-color: #EBE5DD;
     border: none;
     border-radius: 3px;
+    color: #191919;
     display: block;
     width: 100%;
-    height: 5em;
+    height: 10em;
 }
+
 
 footer{
     background-image:linear-gradient(
@@ -571,6 +579,7 @@ footer .logo{
 
 }
 
+form p{ width: 80%; }
 .copy-info{
     height: 5em;
     width: 100vw;
