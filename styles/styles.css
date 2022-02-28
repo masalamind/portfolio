@@ -28,6 +28,7 @@
 /* Default custom style overriding user agent styles */
 
 a{ text-decoration: none; }
+a:visited{ color: white; }
 
 body{
     background-color: #2356DD;
@@ -173,7 +174,7 @@ h2{
 
 span.outline{ font-family: 'Maxxi Serif Outline', sans-serif; }
 
-nav a:visited{ color: #BDBDBD;; }
+nav a:visited{ color: #BDBDBD; }
 
 nav li a{ transition: all 0.3s ease 0s; }
 
@@ -381,24 +382,27 @@ span.coding-language{
 }
 
 
-.portfolio-footer ul li{
-    color: #fff;
+.portfolio-footer ul li{   
     display: inline-flex;
     font-weight: bold;
-    margin-right: 1em;
+    margin-right: 2em;
 
 }
 
+small a, .portfolio-footer ul li a{ color: #fff; }
+
+.portfolio-footer ul li a:hover { color: #172637; }
+
 .portfolio-footer a:visited{ color: white; }
 
+.portfolio-footer ul li a:hover{ color: #fff; }
+
 .portfolio-footer{
-    padding-top: 5em;
     text-align: center;
     width: 100%;
 
 }
 
-.portfolio-footer li a:hover { color:#4EAACA; }
 
 .portfolio-container{
     color:#191919;
