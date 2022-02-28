@@ -5,6 +5,7 @@ Designed and Coded by John Muiruri
 
 ## Description
 This project creates a portfolio website for John Muiruri. 
+It is built in vanilla html5, css3, and javascript(coming soon)
 
 ## Access 
 The website is hosted online by github pages online on masalamind.github.io/masalamind 
