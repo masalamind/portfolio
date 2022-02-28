@@ -485,6 +485,12 @@ span.role-number{
 
 /* FOOTER SECTION */
 
+.contact-container{
+    margin: 0 auto;
+    width: 50%;
+    padding: 5em;
+
+}
 .message-btn{
     border: none;
     background-color: ;  
@@ -507,8 +513,9 @@ span.role-number{
     cursor: pointer;
 }
 
-form h1{ 
-    padding-bottom: 0; }
+form{ width: 80%; }
+
+form h1{ padding-bottom: 0; }
 
 form .form-inputs{
     background-color: #EBE5DD;
@@ -552,8 +559,8 @@ footer{
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover; 
-    display: grid;
-    justify-items: center;
+    /* display: grid; */
+    justify-content: center;
     
 }
 
