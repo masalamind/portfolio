@@ -335,14 +335,18 @@ input:checked + .slider:before {
     position: relative;
     left: 50px;
     bottom: 2.5em;
+    
+}
 
+.dock ul{ 
+    display: block;
+    margin: 0 auto;
 
 }
 
-.dock ul{ display: block; }
-
 .dock ul li{ 
     display: inline-flex;
+    height: 5em;
     margin-right: 2em;
 
 }
