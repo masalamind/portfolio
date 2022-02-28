@@ -6,6 +6,7 @@
 @import url('http://fonts.cdnfonts.com/css/anonymous-pro');
 @import url('http://fonts.cdnfonts.com/css/maxxi-serif');
 
+
 @font-face {
     font-family: 'peace_sansregular';
     src: url('peace_sans-webfont.eot');
@@ -18,6 +19,8 @@
     font-style: normal;
 
 }
+
+
 
 /* GLOBAL STYLES */
 
@@ -56,6 +59,7 @@ h2{
 
 }
 
+
 /* Transition pages for introducing sections and for parallax effect */
 
 .transition-page{    
@@ -66,6 +70,7 @@ h2{
     width: 100vw;
 
 }
+
 
 /* Set the background color classes for plain transition pages */
 
@@ -86,9 +91,6 @@ h2{
 .white-bg{ background-color: #fff; }
 
 .yellow-txt{color:#EFD473; }
-
-
-
 
 
 /* HEADER STYLES */
@@ -194,6 +196,8 @@ h2{
     font-size: 3em;
 }
 
+/* About me section */
+
 .aboutme-page{
     background-image: url("../images/networkmeshbg");
     background-repeat: no-repeat;
@@ -209,8 +213,7 @@ h2{
 }
 
 
-/* THEME SWITCHER */
-/* The switch - the box around the slider */
+/* Theme switcher for colored and dark theme */
 
 nav .theme-switch{
     float: right;
@@ -222,31 +225,30 @@ nav .theme-switch{
     position: relative;
     width: 4em;
 
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
+}
+
+/* Hide default HTML checkbox */
+.switch input {
     height: 0;
     opacity: 0;
     width: 0;
 
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
+}
+
+.slider {
+    background-color: #172637;
+    bottom: 0;
     cursor: pointer;
-    top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    background-color: #172637;
-    -webkit-transition: .4s;
+    top: 0;
+    position: absolute;
     transition: .4s;
-    
-  }
+    -webkit-transition: .4s;
+
+}
   
-  .slider:before {
+.slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -256,64 +258,55 @@ nav .theme-switch{
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  }
+
+}
   
-  input:checked + .slider {
-    background-color: #2356DD;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2356DD;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
+input:checked + .slider { background-color: #2356DD; }
+
+input:focus + .slider { box-shadow: 0 0 1px #2356DD; }
+
+input:checked + .slider:before {
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-  }
-  
+    -webkit-transform: translateX(26px);
 
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
-/* HERO AREA STYLING */
+}
+
+.slider.round { border-radius: 34px; }
+
+.slider.round:before { border-radius: 50%; }
 
 
-
-
+/* Hero area styling */
 
 .hero{
-    width: 100vw;
+    align-items: center;
     display: grid;
     grid-template-columns:1fr 2fr;
     justify-items: center;
-    align-items: center;
+    width: 100vw;
 
 }
 
-.hero-img{
-    /* margin-top: 100px;
-    margin-right: 50px; */
-    width: 300px;
+.hero-img{    
     height: 300px;
+    width: 300px;
+
 }
 
 .hero-usp{
-    margin-top: 12em;
     margin-left: 10em;
+    margin-top: 12em;
     
 }
 
 /* ABOUT ME SECTION */
 
 .aboutme-page{
+    color: #191919;
     padding-top: 10%; 
     text-align: center;
-    color: #191919;
+
 }
 
 .aboutme-page p{
@@ -322,75 +315,81 @@ nav .theme-switch{
     line-height:2;
     width: 60%;
     margin:0 auto;
+
 }
 
 .aboutme-page h6,  .final-words h6{
     color: #616161;
     font-size: 3em;
+
 }
+
 
 /* PORTFOLIO SECTION */
 
 .portfolio-container{
     width:20%;
+
 }
 
 .portfolio-item img{
-    width: 500px;
-    height:250px;
     background: pink;
+    height:250px;
+    width: 500px;
     /* float: left; */
 }
 
 .portfolio-summary{
     background-color: #fff;
-    width: 500px;
     height: 300px;
+    width: 500px;
     /* float:right; */
 }
 
 .dock{
-    height: 5em;
-    width: 400px;
     background-color:#4E9EBA;
     color: #fff;
     display: flex;
+    height: 5em;
+    width: 400px;
 
 }
 
-.dock ul{ display: block;}
-.dock ul li{ display: 
-    inline-flex;
+.dock ul{ display: block; }
+
+.dock ul li{ 
+    display: inline-flex;
     margin-right: 2em;
+
 }
 
-.portfolio-container{
-    margin: 1em 2em;
-}
-.portfolio-page ul li a{
-    color: #fff;
-}
+.portfolio-container{ margin: 1em 2em; }
 
-.portfolio-page ul li{
-    list-style: none;
-}
+.portfolio-page ul li a{ color: #fff; }
+
+.portfolio-page ul li{ list-style: none; }
 
 
 .portfolio-footer ul li{
-    display: inline-flex;
     color: #fff;
+    display: inline-flex;
     font-weight: bold;
     margin-right: 1em;
 
 }
 
-.portfolio-footer a:visited{ color: white;}
+.portfolio-footer a:visited{ color: white; }
+
 .portfolio-footer{
     padding-top: 5em;
-    width: 100%;
     text-align: center;
+    width: 100%;
+
 }
-/* WORK ROLE PAGE */
+
+
+/* WORK ROLE SECTION */
+/* Using a css grid to position containers and elements  */
 
 .work-role{
     display: grid;
@@ -399,58 +398,61 @@ nav .theme-switch{
     
 }
 
-
-
 .work-role design-left h1{
     color: #EBE5DD;
     margin-bottom: 2px !important;
+
 }
 
 .work-role .bottom-container h1{
     color: color:rgb(31,95,140);
+
 }
 
 .design-left{
-    display: grid;
     background-color: rgb(31,95,140);
     color: white;
+    display: grid;
     grid-column:1/8;
     grid-row:1/6;
     justify-items: center;
-    /* align-items: center; */
-    
-    
+         
 }
 
 .design-left img{
-    width: 400px;
     height: 400px;
+    width: 400px;
+
 }
 
 .top-right-container{
+    align-content: center;
     display: grid;
     justify-content: center;
-    align-content: center;
+
 }
+
 .top-right-container img{
     width: 200px;
     height: 200px;
+
 }
 
 .top-containers{
-    display: flex;
     background-color: pink;
+    display: flex;
     grid-column: 8/13;
     grid-row: 1/3;
 
 }
 
 .top-left-container{
-    display: grid;
-    background-color:#4E9EBA;
-    justify-content: center;
     align-content: center;
+    background-color:#4E9EBA;
+    display: grid;
+    justify-content: center;
     width: 70%;
+
 }
 
 .top-right-container{
@@ -460,17 +462,16 @@ nav .theme-switch{
 }
 
 .bottom-container{
+    align-content: center;
     background-color: #EBE5DD;
     grid-column: 8/13;
     grid-row: 3/6;
     display: grid;
     justify-items: center;
-    align-content: center;
 
 }
-.bottom-container p{
-    color:#191919;
-}
+
+.bottom-container p{ color:#191919; }
 
 
 span.role-number{
@@ -486,17 +487,16 @@ span.role-number{
     background-size: cover;
     background-attachment: fixed;
     color: black;
+    
 }
 
 
 footer{
-
     background-image:linear-gradient(rgba(221,87,71, 0.7), rgb(221,87,71)), 
     url('../images/world-map.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover; 
-
     display: grid;
     justify-items: center;
     
@@ -511,9 +511,10 @@ footer{
 
 
 footer .logo{
-    width: 100px;
     height: 50px;
     margin-left: 2em;
+    width: 100px;
+
 }
 
 
