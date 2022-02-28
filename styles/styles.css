@@ -207,9 +207,7 @@ span.numbered{
 
 /* Theme switcher for colored and dark theme */
 
-nav .theme-switch{
-    float: right;
-}
+nav .theme-switch{ float: right; }
 
 input:checked + .slider { background-color: #2356DD; }
 
@@ -321,9 +319,7 @@ input:checked + .slider:before {
 
 /* Orange transition page */
 
-.intro-style {
-    padding-top: 10em;
-}
+.intro-style { padding-top: 10em; }
 
 /* PORTFOLIO SECTION */
 
@@ -412,6 +408,8 @@ small a, .portfolio-footer ul li a{ color: #fff; }
 .portfolio-page {
     display: flex;
     justify-content: space-evenly;
+    padding-right: 10em;
+
 }
 
 .portfolio-summary{
@@ -533,6 +531,12 @@ span.role-number{
     font-size: 5em;
     color: rgb(235,229,221);
     
+}
+
+span.number-one{
+    position: relative;
+    top: 3em;
+    left: 5em;
 }
 
 .final-words{
