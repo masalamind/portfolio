@@ -331,7 +331,42 @@ nav .theme-switch{
     font-size: 3em;
 }
 
+/* PORTFOLIO SECTION */
 
+.portfolio-container{
+    width:20%;
+}
+
+.portfolio-item img{
+    width: 500px;
+    height: 300px;
+    background: pink;
+    /* float: left; */
+}
+
+.portfolio-summary{
+    background-color: #fff;
+    width: 500px;
+    height: 400px;
+    /* float:right; */
+}
+
+.dock{
+    height: 50px;
+    width: 400px;
+    background-color:#4E9EBA;
+    color: #fff;
+    display: flex;
+
+}
+
+.portfolio-page ul li a{
+    color: #fff;
+}
+
+.portfolio-page ul li{
+    list-style: none;
+}
 /* WORK ROLE PAGE */
 
 .work-role{
