@@ -54,7 +54,7 @@ h2{
 
 .full-width{
     background-attachment: scroll;
-    height: 100vh;
+    height: 95vh;
     width:100vw;
 
 }
@@ -144,17 +144,12 @@ header nav li a{
 
 }
 
-header nav li a:hover{
-    color: #EBE5DD;
-        
-}
 
 header nav ul li{
     display: inline-block;
     text-decoration: none;
 
 }
-
 
 h6{ 
     font-family: 'Lifelogo Easy', sans-serif;
@@ -183,7 +178,7 @@ nav a:visited{ color: #BDBDBD;; }
 nav li a{ transition: all 0.3s ease 0s; }
 
 span.numbered{
-    color: #BDBDBD;
+    color: #EEE;
     font-size:.8em;
     font-weight: 400;
     font-family: 'Anonymous Pro', sans-serif;
@@ -489,9 +484,35 @@ span.role-number{
 }
 
 
+/* FOOTER SECTION */
+
+.message-btn{
+    border: none;
+    background-color: ;  
+}
+
+form .form-inputs{
+    background-color: #EBE5DD;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    height: 3em;
+    margin-bottom: .7em;
+    width: 40em;
+
+}
+
+text-area{
+    background-color: #EBE5DD;
+    border: none;
+    border-radius: 3px;
+    width: 40em;
+    height: 200px; 
+}
+
 footer{
     background-image:linear-gradient(
-    rgba(221,87,71, 0.7),
+    rgba(221,87,71, 0.9),
     rgb(221,87,71)),
     url('../images/world-map.png');
     background-repeat: no-repeat;
@@ -502,6 +523,13 @@ footer{
     
 }
 
+footer .logo{
+    height: 50px;
+    margin-left: 2em;
+    width: 100px;
+
+}
+
 .copy-info{
     height: 5em;
     width: 100vw;
@@ -510,11 +538,5 @@ footer{
 }
 
 
-footer .logo{
-    height: 50px;
-    margin-left: 2em;
-    width: 100px;
-
-}
 
 
