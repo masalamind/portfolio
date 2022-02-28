@@ -54,7 +54,7 @@ h2{
 
 .full-width{
     background-attachment: scroll;
-    height: 95vh;
+    height: 100vh;
     width:100vw;
 
 }
@@ -485,6 +485,10 @@ span.role-number{
 
 /* FOOTER SECTION */
 
+/* Hide attribution while including it */
+
+.attribution{ margin-right: -10000px; }
+
 .contact-container{
     margin: 0 auto;
     width: 50%;
@@ -524,7 +528,7 @@ form .form-inputs{
     color: #191919;
     display: block;
     height: 2em;
-    margin-bottom: .7em;
+    margin-bottom: .5em;
     padding: .5em 0;
     padding-left:.5em;
     width: 100%;
@@ -538,15 +542,13 @@ form label{
     top: 2em;
 
 }
+
 form label:hover{ cursor:pointer;}
 .form-inputs:focus, textarea:focus {
     background-color: #fff;
     outline:none !important
 
 }
-
-
-
 
 textarea{
     background-color: #EBE5DD;
@@ -580,11 +582,21 @@ footer .logo{
 }
 
 form p{ width: 80%; }
+
 .copy-info{
     height: 5em;
     width: 100vw;
+    padding-top: 20px;
     text-align: center;
     
+}
+
+.quickchat{
+    width: 600px;
+    height: 200px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 600px;
 }
 
 
