@@ -405,6 +405,11 @@ span.coding-language{
     text-align: center;
 }
 
+.portfolio-page {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .portfolio-summary{
     background-color: #fff;
     border-radius: 4px;
