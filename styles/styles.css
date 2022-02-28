@@ -413,7 +413,6 @@ input:checked + .slider:before {
 .design-left{
     background-color: rgb(31,95,140);
     color: white;
-    display: grid;
     grid-column:1/8;
     grid-row:1/6;
     justify-items: center;
@@ -421,9 +420,16 @@ input:checked + .slider:before {
 }
 
 .design-left img{
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
+    position: relative; 
+    top: 40px;
+  
+}
 
+.role-content{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .top-right-container{
