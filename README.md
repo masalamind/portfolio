@@ -19,9 +19,9 @@ Copyright of masalacollective,masalamind
 Use of free background resources from freepik
 attribution: 
 
-(technology banner background)[<a href="https://www.freepik.com/vectors/technology">Technology vector created by starline - www.freepik.com</a>]
-(banner background)[<a href="https://www.freepik.com/vectors/banner">Banner vector created by starline - www.freepik.com</a>]
-(banner background)[<a href="https://www.freepik.com/vectors/background">Background vector created by starline - www.freepik.com</a>]
+(technology banner background)[https://www.freepik.com/vectors/technology">]
+(banner background)[https://www.freepik.com/vectors/banner"]
+(banner background)[https://www.freepik.com/vectors/background"]
 
 ## Hi-fidelity Design for Dark Theme
 ![Dark theme](portfoliodarktheme.jpg)
