@@ -10,7 +10,7 @@ It is built in vanilla html5, css3, and javascript(coming soon)
 ## Access 
 The website is hosted online by github pages online on masalamind.github.io/masalamind 
 The link to the live site is 
-(masalamind portfolio)[https://masalamind.github.io/portfolio/]
+(masalamind portfolio)[https://muirurimukundi.github.io/portfolio/]
 
 ## Copyright and licencse info
 Copyright of masalacollective,masalamind 
